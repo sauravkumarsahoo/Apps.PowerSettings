@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EmJ3nYxE6yiDhNGm5l2VZ7YXtYMEfcn+s9oScleRoMVdVkRa2Sa/xMTzXrEayJ6GmHNFU045jfkH18y7I/N4Rg==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\Clicksrv\\Apps\\PowerSettings\\src\\PowerSettings.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\srvks\\.nuget\\packages\\clicksrv.packages.startwithossettings\\0.3.3\\clicksrv.packages.startwithossettings.0.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}

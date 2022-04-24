@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Clicksrv.Packages.StartWithOSSettings/0.3.3": {
+        "runtime": {
+          "lib/net6.0/Clicksrv.Packages.StartWithOSSettings.dll": {
+            "assemblyVersion": "0.3.3.0",
+            "fileVersion": "0.3.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Clicksrv.Packages.StartWithOSSettings/0.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DcQzn3Op4uad3JhTEWa7+Mca9s9tVxCdghe2opmGviPohDxpc9vfcbRiZSFwJTXcHTD+dx2rboTaYr9bvk7kUA==",
+      "path": "clicksrv.packages.startwithossettings/0.3.3",
+      "hashPath": "clicksrv.packages.startwithossettings.0.3.3.nupkg.sha512"
+    }
+  }
+}

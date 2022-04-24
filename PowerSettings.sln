@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerSettings", "src\PowerSettings.csproj", "{B7C4BCF9-6503-40A3-BDE8-DFEEF7072CDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7C4BCF9-6503-40A3-BDE8-DFEEF7072CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C4BCF9-6503-40A3-BDE8-DFEEF7072CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C4BCF9-6503-40A3-BDE8-DFEEF7072CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C4BCF9-6503-40A3-BDE8-DFEEF7072CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A20D416-97F3-4CA1-81D2-9A343274712C}
+	EndGlobalSection
+EndGlobal
