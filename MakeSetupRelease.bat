@@ -15,7 +15,7 @@ echo:
 echo [ %pulling_msg% ]
 echo:
 
-cd src\HIRD
+cd src
 echo:
 echo [ %publish_msg% ]
 echo:
@@ -23,7 +23,7 @@ echo:
 dotnet publish /p:Version=%v% --framework net6.0-windows --runtime win-x64 --configuration Release --no-self-contained
 dotnet publish /p:Version=%v% --framework net6.0-windows --runtime win-x86 --configuration Release --no-self-contained
 
-cd ..\..
+cd ..
 
 echo:
 echo [ %compile_msg% ]
@@ -35,11 +35,11 @@ echo:
 echo [ %deploy_msg% ]
 echo:
 
-::git add .
-::git commit -m "%deploy_msg%"
-::git tag v%v%
-::git push origin
-::git push origin --tags
+git add .
+git commit -m "%deploy_msg%"
+git tag v%v%
+git push origin
+git push origin --tags
 
 echo:
 echo:
