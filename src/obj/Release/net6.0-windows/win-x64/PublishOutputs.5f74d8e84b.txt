@@ -1,5 +1,0 @@
-D:\Code\Clicksrv\Apps\PowerSettings\src\bin\Release\net6.0-windows\win-x64\publish\PowerSettings.exe
-D:\Code\Clicksrv\Apps\PowerSettings\src\bin\Release\net6.0-windows\win-x64\publish\PowerSettings.dll
-D:\Code\Clicksrv\Apps\PowerSettings\src\bin\Release\net6.0-windows\win-x64\publish\PowerSettings.deps.json
-D:\Code\Clicksrv\Apps\PowerSettings\src\bin\Release\net6.0-windows\win-x64\publish\PowerSettings.runtimeconfig.json
-D:\Code\Clicksrv\Apps\PowerSettings\src\bin\Release\net6.0-windows\win-x64\publish\Clicksrv.Packages.StartWithOSSettings.dll
