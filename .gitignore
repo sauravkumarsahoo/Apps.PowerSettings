@@ -33,8 +33,8 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
-src/*/bin
-src/*/obj
+*/[Bb]in/
+*/[Oo]bj/
 
 test/*/obj
 test/*/bin
