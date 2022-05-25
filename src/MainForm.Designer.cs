@@ -38,6 +38,7 @@
             // 
             this.trayContextMenu.Name = "trayContextMenu";
             this.trayContextMenu.Size = new System.Drawing.Size(61, 4);
+            this.trayContextMenu.Opening += new System.ComponentModel.CancelEventHandler(this.OnTrayOpening);
             // 
             // notifyIcon
             // 
