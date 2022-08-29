@@ -3,6 +3,9 @@ PowerSettings enables you to easily switch power modes from the system tray. Esp
 
 ## Release Notes
 
+### v0.1.2
+- Set tray icon description to newly selected Power Profile plan
+
 ### v0.1.1
 - Tray elements are loaded when opened to be able to show latest and updated configuration
 - Option to launch Power Options

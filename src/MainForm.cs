@@ -85,6 +85,7 @@ namespace Clicksrv.Apps.PowerSettings
         private void Set(PowerProfile profile)
         {
             PowerProfileManager.SetActiveProfile(profile);
+            notifyIcon.Text = $"{profile.Name}";
         }
 
         private void MinimizeToTray()
