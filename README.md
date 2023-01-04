@@ -1,5 +1,5 @@
 # PowerSettings
-PowerSettings enables you to easily switch power modes from the system tray. Especially for systems without any battery (may be running on UPS), when there is a power outage, there is no way to save power and extend UPS runtime. This app just enables a way to save more power or have a quieter computer experience.
+PowerSettings is a utility that allows you to quickly change your computer's power mode from the system tray. This is especially useful for systems that do not have a battery and rely on a UPS (uninterruptible power supply) for backup power. During a power outage, it can be difficult to conserve energy and extend the runtime of the UPS. PowerSettings provides an easy way to save power and reduce noise by switching to a lower power mode.
 
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
