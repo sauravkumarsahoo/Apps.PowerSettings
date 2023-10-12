@@ -8,7 +8,7 @@
 #define SetupExeName "PowerSettings_Setupx64"
 #define MyAppPublisher "Saurav KS"
 #define MyAppURL "https://clicksrv.github.io/PowerSettings"
-#define CompileOutputPath ".\src\bin\Release\net6.0-windows\win-x64\publish\"
+#define CompileOutputPath ".\PowerSettings.App\bin\Release\net7.0-windows\win-x64\publish\"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
