@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Text.RegularExpressions;
 
-namespace PowerSettings
+namespace PowerSettings.ProfileManager
 {
     public class PowerProfileManager
     {

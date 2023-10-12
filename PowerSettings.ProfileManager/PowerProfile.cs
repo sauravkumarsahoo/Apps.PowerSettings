@@ -1,4 +1,4 @@
-﻿namespace PowerSettings
+﻿namespace PowerSettings.ProfileManager
 {
     public class PowerProfile
     {

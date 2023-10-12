@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using System.Text;
 
-namespace PowerSettings
+namespace PowerSettings.ProfileManager
 {
     public static class PowerManagement
     {

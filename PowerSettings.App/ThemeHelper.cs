@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace PowerSettings
+namespace PowerSettings.App
 {
     internal class ThemeHelper
     {

@@ -14,13 +14,13 @@ echo:
 echo [ %pulling_msg% ]
 echo:
 
-cd src
+cd PowerSettings.App
 echo:
 echo [ %publish_msg% ]
 echo:
 
-dotnet publish /p:Version=%v% --framework net6.0-windows --runtime win-x64 --configuration Release --no-self-contained
-dotnet publish /p:Version=%v% --framework net6.0-windows --runtime win-x86 --configuration Release --no-self-contained
+dotnet publish /p:Version=%v% --framework net7.0-windows --runtime win-x64 --configuration Release --no-self-contained
+dotnet publish /p:Version=%v% --framework net7.0-windows --runtime win-x86 --configuration Release --no-self-contained
 
 cd ..
 

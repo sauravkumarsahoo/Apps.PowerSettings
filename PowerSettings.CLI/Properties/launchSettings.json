@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PowerSettings.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "Balanced"
+    }
+  }
+}

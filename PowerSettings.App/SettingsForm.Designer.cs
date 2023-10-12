@@ -1,4 +1,4 @@
-﻿namespace Clicksrv.Apps.PowerSettings
+﻿namespace PowerSettings
 {
     partial class SettingsForm
     {

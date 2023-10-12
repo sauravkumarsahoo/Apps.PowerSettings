@@ -1,7 +1,9 @@
 using PowerSettings;
+using PowerSettings.App;
+using PowerSettings.ProfileManager;
 using System.Diagnostics;
 
-namespace Clicksrv.Apps.PowerSettings
+namespace PowerSettings.App
 {
     public partial class MainForm : Form
     {

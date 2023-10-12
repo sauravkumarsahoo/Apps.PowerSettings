@@ -1,6 +1,6 @@
 ﻿using Clicksrv.Packages.StartWithOSSettings.Windows;
 
-namespace Clicksrv.Apps.PowerSettings
+namespace PowerSettings
 {
     public partial class SettingsForm : Form
     {

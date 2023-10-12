@@ -1,6 +1,6 @@
-using Clicksrv.Apps.PowerSettings;
+using PowerSettings;
 
-namespace PowerSettings
+namespace PowerSettings.App
 {
     internal static class Program
     {
