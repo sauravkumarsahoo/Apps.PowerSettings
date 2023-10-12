@@ -29,4 +29,6 @@ jobs:
           files: |
             publish/PowerSettings_Setupx64.exe
             publish/PowerSettings_Setupx86.exe
+            publish/powersettings.exe
+            publish/powersettings_x86.exe
             LICENSE
