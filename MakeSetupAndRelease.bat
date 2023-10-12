@@ -31,6 +31,10 @@ echo:
 
 iscc CreateSetupx64.iss /DMyAppVersion=%v%
 iscc CreateSetupx86.iss /DMyAppVersion=%v%
+
+copy PowerSettings.CLI\bin\Release\net7.0\win-x64\publish\powersettings.exe publish\powersettings.exe
+copy PowerSettings.CLI\bin\Release\net7.0\win-x86\publish\powersettings.exe publish\powersettings_x86.exe
+
 echo:
 echo [ %deploy_msg% ]
 echo:

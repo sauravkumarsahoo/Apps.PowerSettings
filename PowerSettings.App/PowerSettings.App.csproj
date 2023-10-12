@@ -9,6 +9,7 @@
     <ApplicationIcon>tray-light.ico</ApplicationIcon>
     <DebugType>none</DebugType>
     <SignAssembly>False</SignAssembly>
+    <AssemblyName>PowerSettings</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
