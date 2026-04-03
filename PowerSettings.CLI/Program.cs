@@ -1,4 +1,4 @@
-﻿using PowerSettings.ProfileManager;
+﻿/*using PowerSettings.ProfileManager;
 using System.Xml.Linq;
 
 if (args.Length > 1)
@@ -50,3 +50,34 @@ manager.SetActiveProfile(profileToBeSelected);
 Console.WriteLine("Powerscheme [" + profileToBeSelected.Name + "] is now active.");
 
 return 0;
+*/
+
+using PowerSettings.CLI;
+using System.Management;
+using System.Threading;
+
+ManagementObjectSearcher searcher = new("SELECT * FROM Win32_Settings");
+
+int index = 0;
+
+foreach (ManagementObject monitor in searcher.Get())
+{
+    // string mName = $" Monitor Name: {monitor["Name"]} ";
+    string mName = $" Monitor Name: Name ";
+    string separator = new(Enumerable.Range(0, mName.Length).Select(_ => '-').ToArray());
+
+    Console.WriteLine(separator);
+    Console.WriteLine($" Monitor ID: {index}");
+    Console.WriteLine(mName);
+    Console.WriteLine(separator);
+
+    foreach (var property in monitor.Properties)
+    {
+        Console.WriteLine($"{property.Name}: {property.Value ?? ""}");
+    }
+
+    Console.WriteLine();
+    index++;
+}
+    
+
